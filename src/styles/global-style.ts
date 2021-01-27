@@ -4,7 +4,7 @@ import reset from 'styled-reset';
 const GlobalStyle = createGlobalStyle`
     ${reset}
     html{
-        min-width: fit-content;
+        max-width: fit-content;
         min-height: 100vh;
         background-color: ${ props => props.theme.mainBackground}
     }

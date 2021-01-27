@@ -13,15 +13,15 @@ import Questions from './questions/Questions';
 import SearchHome from './search/SearchHome';
 
 const Wrapper = styled.div`
-    width:min(1470px, 100%);
-    padding: 20px 10px 40px 10px;
+    width:min(1470px, calc(100% - 30px));
+    padding: 20px 0 40px 0;
 `
 
 const Routes = () => {
     return(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
-        <Box transparent>
+        <Box transparent style={{maxWidth:"100%"}}>
             <Wrapper>
                 <Switch>
                     <Route path="/playground" exact component={Playground} />

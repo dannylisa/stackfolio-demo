@@ -29,8 +29,7 @@ const Wrapper = styled.div`
     box-shadow: 2px 2px 10px grey;
     padding: 10px;
     ${media.phone`
-        width: 100%;
-        grid-template-rows: 350px 40px 60px 16px 55px;
+        grid-template-rows: 200px 40px 60px 16px 55px;
         grid-template-areas: 
             "img img"
             "title title"
