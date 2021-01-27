@@ -3,13 +3,14 @@ import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
     ${reset}
-    * {
-        
-    }
-    body {
-        width: 100vw;
+    html{
+        min-width: fit-content;
         min-height: 100vh;
         background-color: ${ props => props.theme.mainBackground}
+    }
+    body, html{
+        padding: 0;
+        margin: 0;
     }
 `
 export default GlobalStyle;
