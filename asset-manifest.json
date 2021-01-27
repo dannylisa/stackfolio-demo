@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/velogfront/static/js/main.e39839e8.chunk.js",
-    "main.js.map": "/velogfront/static/js/main.e39839e8.chunk.js.map",
+    "main.js": "/velogfront/static/js/main.3796ce28.chunk.js",
+    "main.js.map": "/velogfront/static/js/main.3796ce28.chunk.js.map",
     "runtime-main.js": "/velogfront/static/js/runtime-main.c4c14f00.js",
     "runtime-main.js.map": "/velogfront/static/js/runtime-main.c4c14f00.js.map",
-    "static/js/2.d42d5625.chunk.js": "/velogfront/static/js/2.d42d5625.chunk.js",
-    "static/js/2.d42d5625.chunk.js.map": "/velogfront/static/js/2.d42d5625.chunk.js.map",
+    "static/js/2.30617808.chunk.js": "/velogfront/static/js/2.30617808.chunk.js",
+    "static/js/2.30617808.chunk.js.map": "/velogfront/static/js/2.30617808.chunk.js.map",
     "index.html": "/velogfront/index.html",
-    "static/js/2.d42d5625.chunk.js.LICENSE.txt": "/velogfront/static/js/2.d42d5625.chunk.js.LICENSE.txt"
+    "static/js/2.30617808.chunk.js.LICENSE.txt": "/velogfront/static/js/2.30617808.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c4c14f00.js",
-    "static/js/2.d42d5625.chunk.js",
-    "static/js/main.e39839e8.chunk.js"
+    "static/js/2.30617808.chunk.js",
+    "static/js/main.3796ce28.chunk.js"
   ]
 }
