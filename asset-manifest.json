@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/stackfolio-demo/static/js/main.aad88716.chunk.js",
-    "main.js.map": "/stackfolio-demo/static/js/main.aad88716.chunk.js.map",
+    "main.js": "/stackfolio-demo/static/js/main.9adb84b3.chunk.js",
+    "main.js.map": "/stackfolio-demo/static/js/main.9adb84b3.chunk.js.map",
     "runtime-main.js": "/stackfolio-demo/static/js/runtime-main.0835b8e8.js",
     "runtime-main.js.map": "/stackfolio-demo/static/js/runtime-main.0835b8e8.js.map",
-    "static/js/2.44765c28.chunk.js": "/stackfolio-demo/static/js/2.44765c28.chunk.js",
-    "static/js/2.44765c28.chunk.js.map": "/stackfolio-demo/static/js/2.44765c28.chunk.js.map",
+    "static/js/2.6f13fe22.chunk.js": "/stackfolio-demo/static/js/2.6f13fe22.chunk.js",
+    "static/js/2.6f13fe22.chunk.js.map": "/stackfolio-demo/static/js/2.6f13fe22.chunk.js.map",
     "index.html": "/stackfolio-demo/index.html",
-    "static/js/2.44765c28.chunk.js.LICENSE.txt": "/stackfolio-demo/static/js/2.44765c28.chunk.js.LICENSE.txt"
+    "static/js/2.6f13fe22.chunk.js.LICENSE.txt": "/stackfolio-demo/static/js/2.6f13fe22.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0835b8e8.js",
-    "static/js/2.44765c28.chunk.js",
-    "static/js/main.aad88716.chunk.js"
+    "static/js/2.6f13fe22.chunk.js",
+    "static/js/main.9adb84b3.chunk.js"
   ]
 }
