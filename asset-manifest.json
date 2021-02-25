@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/stackfolio-demo/static/js/main.9adb84b3.chunk.js",
-    "main.js.map": "/stackfolio-demo/static/js/main.9adb84b3.chunk.js.map",
+    "main.js": "/stackfolio-demo/static/js/main.aaae984d.chunk.js",
+    "main.js.map": "/stackfolio-demo/static/js/main.aaae984d.chunk.js.map",
     "runtime-main.js": "/stackfolio-demo/static/js/runtime-main.0835b8e8.js",
     "runtime-main.js.map": "/stackfolio-demo/static/js/runtime-main.0835b8e8.js.map",
     "static/js/2.6f13fe22.chunk.js": "/stackfolio-demo/static/js/2.6f13fe22.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.0835b8e8.js",
     "static/js/2.6f13fe22.chunk.js",
-    "static/js/main.9adb84b3.chunk.js"
+    "static/js/main.aaae984d.chunk.js"
   ]
 }
