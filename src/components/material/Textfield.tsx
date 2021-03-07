@@ -4,20 +4,22 @@ interface TextFieldProps extends ComponentPropsWithRef<"input"> {
     fullWidth?: boolean
     width?: number
     height?: number
+    fontSize?: number
 }
 
 export const TextField = styled.input<TextFieldProps>`
-    padding: 10px;
-    margin: 10px;
+    padding: 3px 5px;
     size: ${({size}) => size};
-    width: ${ ({fullWidth, width}) => fullWidth ? '100%' : width ? width+'px' : '10rem' };
+    width: ${ ({fullWidth, width}) => fullWidth ? 'calc(100% - 10px)' : width ? width+'px' : '10rem' };
     height: ${({height}) => height ? height+'px' : ''};
-    background: ${ ({theme}) => theme.default.main };
-    border-color: ${ ({theme}) => theme.default.border };
-    border-radius: 3px;
-    color: ${ ({theme}) => theme.default.text };
+    font-size: ${({fontSize}) => fontSize ? fontSize+'px' : '1rem'};
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid #999;
+    color: #444;
     &:focus{
-        outline-color: ${ ({theme}) => theme.default.accent };
+        outline: none;
+        border-bottom: 2.5px solid ${({theme}) => theme.primary.main }
     }
     ::placeholder {
         color: ${ ({theme}) => theme.disable };

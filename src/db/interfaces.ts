@@ -1,30 +1,4 @@
-export type PROVIDER = "local" | "google" | "github" | "facebook";
-
-export interface User{
-    id: string
-    created_at: string
-    updated_at: string
-    provider: PROVIDER
-    social_id: string
-    email: string
-    is_verified: boolean
-}
-
-export interface User_Profile{
-    id: string
-    created_at: string
-    updated_at: string
-    username: string
-    bio: string
-    about: string
-    avatar: string
-
-    // What type?
-    social_links: any
-    user: User
-}
-
-
+import { User } from "./User";
 export interface Post {
     id: string
     created_at: string

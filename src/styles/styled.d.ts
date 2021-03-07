@@ -5,22 +5,24 @@ interface Colorset {
     text: string
     border: string
     accent: string
+    disabled: string
 }
 
 declare module 'styled-components' {
     export interface DefaultTheme {
         mainBackground: string;
-        opposite: string;
+        basic: string;
 
         // neutral color
         title: string;
-        disable: string;
         divider: string;
         tableHeader: string;
+        disable: string;
 
-        //point-color
+        // //point-color
         default: Colorset;
         primary: Colorset;
         secondary: Colorset;
+        ghost: Colorset;
     }
 }

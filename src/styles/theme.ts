@@ -2,7 +2,7 @@ import { DefaultTheme } from "styled-components";
 
 const dark: DefaultTheme = {
     mainBackground: `#333`,
-    opposite: '#ccc',
+    basic: '#23384d',
 
     // neutral color
     title: `rgba(255,255,255,0.85)`,
@@ -16,48 +16,67 @@ const dark: DefaultTheme = {
       text: `rgba(255,255,255,0.85)`,
       border: `rgba(255,255,255,0.15)`,
       accent: `rgba(0,0,0,0.2)`,
+      disabled: `rgba(255,255,255,0.25)`
     },
     primary: {
-      main: `rgba(255,255,255,0.8)`,
-      text: `rgba(0,0,0,0.65)`,
-      border: `rgba(255,255,255,0.15)`,
-      accent: `rgba(255,255,255,0.6)`,
+      main: '#ff9425',
+      text: `#fff`,
+      border: `rgba(0, 0, 0, 0.5)`,
+      accent: `#f57e00`,
+      disabled: '#888888'
     },
     secondary:{
-      main: `rgba(0,0,0,0.2)`,
+      main: `#464646`,
       text: `rgba(255,255,255,0.85)`,
       border: `rgba(255,255,255,0.15)`,
-      accent: `rgba(255,255,255,0.6)`,
+      accent: `#5f5f5f`,
+      disabled: '#4A4A4A',
+    },
+    ghost: {
+      main: `rgba(255,255,255,0)`,
+      text: '#ff9425',
+      border: `rgba(255,255,255,0)`,
+      accent: `#4b3f32`,
+      disabled: `rgba(255,255,255,0)`
     }
   };
 const light: DefaultTheme = {
-    mainBackground: `#fff`,
-    opposite: '#333',
+    mainBackground: `#fbfbfb`,
+    basic: '#23384d',
 
     // neutral color
     title: `rgba(0, 0, 0, 0.85)`,
-    disable: `rgba(0, 0, 0, 0.25)`,
-    divider: `rgba(0, 0, 0, 0.06)`,
+    divider: `rgba(0, 0, 0, 0.45)`,
     tableHeader: `rgba(0, 0, 0, 0.02)`,
-    
+    disable: `rgba(0, 0, 0, 0.25)`,
     // point-color
-    default:{
-      main: `rgba(0, 0, 0, 0.01)`,
-      text: `rgba(0, 0, 0, 0.85)`,
-      border: `rgba(0, 0, 0, 0.5)`,
-      accent: `rgba(0, 0, 0, 0.6)`
+    default: {
+      main: '#fbfbfb',
+      text: '#000',
+      border: '#333',
+      accent: '#f0f0f0',
+      disabled: `rgba(0, 0, 0, 0.25)`
     },
     primary: {
-      main: `rgba(255,255,255,0.8)`,
-      text: `rgba(0, 0, 0, 1)`,
-      border: `rgba(0, 0, 0, 0.5)`,
-      accent: `rgba(0, 0, 0, 0.8)`
+      main: '#FF9E3A',
+      text: `#fff`,
+      border: `rgba(255, 148, 37, 0.5)`,
+      accent: `#f57e00`,
+      disabled: '#FFC485'
     },
     secondary: {
-      main: `rgba(0,0,0,0.2)`,
+      main: '#E8E8E8',
       text: `rgba(0, 0, 0, 0.75)`,
-      border: `rgba(0, 0, 0, 0.2)`,
-      accent: `rgba(0, 0, 0, 0.5)`
+      border: `rgba(232, 232, 232, 0.2)`,
+      accent: `#c3cbd5`,
+      disabled: '#F0F0F0'
+    },
+    ghost: {
+      main: 'transparent',
+      text: '#ff9425',
+      border: `rgba(0, 0, 0, 0)`,
+      accent: `#fff5eb`,
+      disabled: `rgba(0, 0, 0, 0.25)`
     }
   };
 

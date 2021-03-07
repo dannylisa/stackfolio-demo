@@ -11,30 +11,24 @@ import TagDetail from './tags/TagDetail';
 import QuestionDetails from './questions/QuestionDetails';
 import Questions from './questions/Questions';
 import SearchHome from './search/SearchHome';
-
-const Wrapper = styled.div`
-    width:min(1470px, calc(100% - 30px));
-    padding: 20px 0 40px 0;
-`
+import Profile from './profile/Profile';
 
 const Routes = () => {
     return(
+    // <BrowserRouter>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
-        <Box transparent style={{maxWidth:"100%"}}>
-            <Wrapper>
-                <Switch>
-                    <Route path="/playground" exact component={Playground} />
-                    <Route path="/" exact component={Home} />
-                    <Route exact path="/search" component={SearchHome} />
-                    <Route path="/search/:keyword" component={Search} />
-                    <Route exact path="/tags" component={Tags} />
-                    <Route path="/tags/:id" component={TagDetail} />
-                    <Route exact path="/questions" component={Questions} />
-                    <Route path="/questions/:id" component={QuestionDetails} />
-                </Switch>
-            </Wrapper>
-        </Box>
+        <Switch>
+            <Route path="/playground" exact component={Playground} />
+            <Route path="/" exact component={Home} />
+            <Route path="/@:id" component={Profile} />
+            <Route exact path="/search" component={SearchHome} />
+            <Route path="/search/:keyword" component={Search} />
+            <Route exact path="/tags" component={Tags} />
+            <Route path="/tags/:id" component={TagDetail} />
+            <Route exact path="/questions" component={Questions} />
+            <Route path="/questions/:id" component={QuestionDetails} />
+        </Switch>
     </BrowserRouter>
     )
 }
